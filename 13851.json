@@ -1,0 +1,184 @@
+{
+    "upgrades": {
+        "1": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Weapon armory",
+            "level": 1,
+            "basecost": 1000,
+            "ability": "Unlocks weapon armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "2": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Armor armory",
+            "level": 1,
+            "basecost": 1412,
+            "ability": "Unlocks armor armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "3": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Temporary armory",
+            "level": 1,
+            "basecost": 3067,
+            "ability": "Unlocks temporary weapon armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "4": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Medical armory",
+            "level": 1,
+            "basecost": 3067,
+            "ability": "Unlocks medical item armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "5": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Booster armory",
+            "level": 1,
+            "basecost": 6662,
+            "ability": "Unlocks booster item armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "6": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Drug armory",
+            "level": 1,
+            "basecost": 6662,
+            "ability": "Unlocks drug item armory",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "7": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Point storage",
+            "level": 1,
+            "basecost": 15773,
+            "ability": "Unlocks donating and using of points",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "10": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Chaining X",
+            "level": 10,
+            "basecost": 48358,
+            "ability": "Increases maximum chain to 10000",
+            "unlocked": "2019-01-12 18:17:20"
+        },
+        "11": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Capacity X",
+            "level": 10,
+            "basecost": 34258,
+            "ability": "Increases capacity to 100",
+            "unlocked": "2017-01-17 14:04:43"
+        },
+        "12": {
+            "branch": "Core",
+            "branchorder": 0,
+            "branchmultiplier": 0,
+            "name": "Territory XIV",
+            "level": 14,
+            "basecost": 48358,
+            "ability": "Allows faction to hold 14 territories",
+            "unlocked": "2018-08-25 05:48:19"
+        },
+        "13": {
+            "branch": "Criminality",
+            "branchorder": 1,
+            "branchmultiplier": 1,
+            "name": "Nerve IV",
+            "level": 31,
+            "basecost": 10555,
+            "ability": "Increases maximum nerve by 4",
+            "unlocked": "2019-02-06 05:57:10"
+        },
+        "14": {
+            "branch": "Criminality",
+            "branchorder": 1,
+            "branchmultiplier": 1,
+            "name": "Crimes III",
+            "level": 25,
+            "basecost": 12882,
+            "ability": "Provides a 3% passive crime skill & exp boost",
+            "unlocked": "2019-01-21 23:26:29"
+        },
+        "29": {
+            "branch": "Toleration",
+            "branchorder": 2,
+            "branchmultiplier": 2,
+            "name": "Addiction XV",
+            "level": 25,
+            "basecost": 15207,
+            "ability": "Reduces drug addiction gain by 30%",
+            "unlocked": "2019-01-21 23:27:56"
+        },
+        "33": {
+            "branch": "Excursion",
+            "branchorder": 5,
+            "branchmultiplier": 16,
+            "name": "Travel capacity X",
+            "level": 2,
+            "basecost": 1349,
+            "ability": "Increases maximum item capacity while travelling by 10",
+            "unlocked": "2019-01-21 23:31:29"
+        },
+        "36": {
+            "branch": "Steadfast",
+            "branchorder": 3,
+            "branchmultiplier": 4,
+            "name": "Strength training VI",
+            "level": 10,
+            "basecost": 4454,
+            "ability": "Increases strength gym gains by 6%",
+            "unlocked": "2019-01-21 23:28:16"
+        },
+        "37": {
+            "branch": "Steadfast",
+            "branchorder": 3,
+            "branchmultiplier": 4,
+            "name": "Speed training VI",
+            "level": 10,
+            "basecost": 4454,
+            "ability": "Increases speed gym gains by 6%",
+            "unlocked": "2019-01-21 23:28:36"
+        },
+        "38": {
+            "branch": "Steadfast",
+            "branchorder": 3,
+            "branchmultiplier": 4,
+            "name": "Defense training VI",
+            "level": 10,
+            "basecost": 4454,
+            "ability": "Increases defense gym gains by 6%",
+            "unlocked": "2019-01-21 23:28:56"
+        },
+        "39": {
+            "branch": "Steadfast",
+            "branchorder": 3,
+            "branchmultiplier": 4,
+            "name": "Dexterity training VI",
+            "level": 10,
+            "basecost": 4454,
+            "ability": "Increases dexterity gym gains by 6%",
+            "unlocked": "2019-01-21 23:29:13"
+        }
+    }
+}
