@@ -1,18 +1,18 @@
 <?php
 
-$API_KEY_8085 = 'API_KEY_FOR_8085'; //j
-$API_KEY_13851 = 'API_KEY_FOR_13851'; //vl
-//$API_KEY_8085 = 'API_KEY_FOR_8085'; //sb
-$API_KEY_8954 = 'API_KEY_FOR_8954'; //a
-$API_KEY_12863 = 'API_KEY_FOR_12863'; //lt
-
+$config = file_get_contents("keys.json");
+$keys = json_decode($config)->keys;
+$factions = json_decode(file_get_contents("config.json"))->factions;
 $update_data = true;
-
 if($update_data){
-    getFactionUpgrades($API_KEY_8085, 8085);
-    getFactionUpgrades($API_KEY_8954, 8954);
-    //getFactionUpgrades($API_KEY_13851, 13851);
-    getFactionUpgrades($API_KEY_12863, 12863);
+  foreach($keys as $key)
+  {
+    $id= $key->id;
+      if($factions->$id->update)
+      {
+        getFactionUpgrades($key->key, $key->id);
+      }
+  }
 }
 else{
     echo 'Data update is turned off';
@@ -20,7 +20,6 @@ else{
 
 function getFactionUpgrades($API_KEY, $FactionID){
     try{
-
         if($API_KEY === ''){
             return;
         }
@@ -32,7 +31,7 @@ function getFactionUpgrades($API_KEY, $FactionID){
         if($json === false){return;}
 
         $obj = json_decode($json);
-
+        
         if(isset($obj->error)){return;}
 
         if(isset($obj->ID)){
@@ -47,7 +46,7 @@ function getFactionUpgrades($API_KEY, $FactionID){
         }
 
     } catch (Exception $e) {
-        
+        echo 'fail';
     }
 }
 
