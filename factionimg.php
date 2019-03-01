@@ -2,8 +2,9 @@
 if(isset($_GET['factionid']))
 {
     $id = filter_input(INPUT_GET,"factionid",FILTER_SANITIZE_STRING);
-    $factions = array(12863,13851,8085,8954,9517);
-    if(in_array($id,$factions))
+    $config= file_get_contents("config.json");
+    $factions = json_decode($config)->factions ;
+    if($factions->$id )
       get_faction_img($id);
     else
       exit("Wrong faction!");
